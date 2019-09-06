@@ -2,11 +2,11 @@
 namespace GDO\Linq\Method;
 
 use GDO\Table\MethodQueryTable;
-use GDO\Linq\LINQ_Link;
+use GDO\Linq\LINQ_List;
 
-final class Links extends MethodQueryTable
+final class Lists extends MethodQueryTable
 {
-	public function getQuery() { return LINQ_Link::table()->select(); }
+	public function getQuery() { return LINQ_List::table()->select(); }
 	
 	public function getHeaders()
 	{
