@@ -4,7 +4,7 @@ namespace GDO\Linq\Method;
 use GDO\Form\MethodCrud;
 use GDO\Linq\LINQ_Link;
 
-final class Crud extends MethodCrud
+final class CrudLink extends MethodCrud
 {
 	public function hrefList()
 	{
